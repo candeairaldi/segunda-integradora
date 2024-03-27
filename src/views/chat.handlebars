@@ -1,0 +1,17 @@
+<h1>Chat</h1>
+
+<div>
+    <button>
+        <a href="/products">Volver</a>
+    </button>
+</div>
+
+<div>
+    <input id="message">
+    <button onclick="sendMessage('{{user._id}}')">Enviar</button>
+</div>
+
+<div id="chat"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>

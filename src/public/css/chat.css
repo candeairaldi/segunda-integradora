@@ -1,0 +1,37 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto;
+}
+
+#chat {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
